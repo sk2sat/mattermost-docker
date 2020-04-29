@@ -1,6 +1,6 @@
 FROM postgres:9.4-alpine
 
-ENV DEFAULT_TIMEZONE UTC
+ENV DEFAULT_TIMEZONE JST
 
 # Install some packages to use WAL
 RUN echo "azure<5.0.0" > pip-constraints.txt
